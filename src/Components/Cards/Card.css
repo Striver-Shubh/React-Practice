@@ -1,0 +1,38 @@
+.overlay {
+    display: none;
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.unhideOverlay {
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.btnHide {
+    display: none;
+}
+
+.hovered:hover .overlay {
+    display: block;
+}
+
+.hovered:hover .btnHide{
+    display: block;
+}
+
+.hovered:hover .descriptionColor {
+    color: blueviolet;
+}
